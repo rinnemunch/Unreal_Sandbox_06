@@ -11,4 +11,7 @@ Saved
 *.sln
 *.suo
 *.xcodeproj
-*.xcworkspace
+*.xcworkspace 
+# macOS junk
+.DS_Store
+._*
