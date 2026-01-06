@@ -14,4 +14,7 @@ Saved
 *.xcworkspace 
 # macOS junk
 .DS_Store
-._*
+._* 
+# Marketplace assets
+Content/VehicleVarietyPack/
+
