@@ -139,3 +139,59 @@ A clean, reusable crouch system built on Unreal Engine’s native movement featu
 ## 🚀 Result
 
 Each vehicle now behaves in a way that aligns with its intended role. The sports car delivers responsive acceleration with controlled traction, the SUV maintains a heavier and more compliant ride, and the box truck accelerates gradually while preserving realistic weight and momentum. Together, these configurations demonstrate how thoughtful tuning of Chaos Vehicle systems can produce predictable, controllable, and vehicle-appropriate behavior across a wide range of assets.
+
+--- 
+# Project 4 — Foliage Tool Workflow & Instance Control
+
+## 🖼️ Preview
+
+![Foliage Tool Workflow](Media/4.gif)
+
+## 🧱 Features
+
+**Dedicated Foliage Test Levels**
+
+- Blank level created specifically for foliage experimentation  
+- Separate test level used to isolate and demonstrate Fill Mode behavior  
+- Clean environments ensure foliage behavior is easy to observe and compare  
+
+**Foliage Type Asset Setup**
+
+- Multiple Foliage Type assets created for controlled testing  
+- Individual meshes assigned per foliage type  
+- Enables comparison between single-asset and multi-asset foliage workflows  
+
+**Paint Tool Workflows**
+
+- Single foliage asset painted independently for baseline behavior  
+- Multiple foliage assets painted together to demonstrate combined placement  
+- Highlights how different foliage types interact during painting  
+
+**Erase and Remove Tool Usage**
+
+- Erase tool used to remove foliage instances broadly  
+- Remove tool used to target and clear specific foliage types  
+- Demonstrates precise control over foliage cleanup and iteration  
+
+**Single Instance Placement & Selection Cycling**
+
+- Single Instance Mode used for manual foliage placement  
+- Cycle Through Selected used to review individual instances  
+- Allows inspection and adjustment without repainting  
+
+**Fill Mode Testing and Cleanup**
+
+- Fill Mode used to populate areas automatically with foliage  
+- Remove tool applied to clear all fill-generated instances  
+- Shows how to rapidly iterate without rebuilding the level  
+
+**Reapply Tool for Instance Updates**
+
+- Reapply tool used to modify existing foliage without repainting  
+- Bush scale adjusted from 1 to 3 after instances were already placed  
+- Demonstrates non-destructive updates to painted foliage  
+
+## 🚀 Result
+
+This project provides a practical walkthrough of Unreal Engine’s Foliage Tool, covering asset setup, painting workflows, instance selection, fill behavior, and non-destructive updates. By isolating each tool in controlled test levels, the workflow becomes predictable, repeatable, and easy to apply in real production environments.
+
