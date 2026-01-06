@@ -83,3 +83,59 @@ The Geometry Collection fractures naturally under physics simulation while allow
 ## 🚀 Result
 
 A clean, reusable crouch system built on Unreal Engine’s native movement features, enhanced input, and readable animation logic — ready to drop into future third-person projects without rework.
+
+--- 
+
+# Project 3 — Chaos Vehicle Configuration Tuning
+
+## 🖼️ Preview
+
+![Chaos Vehicle Configuration Tuning](Media/3.gif)
+
+## 🧱 Features
+
+**Multi-Vehicle Configuration Comparison**
+
+- Three distinct vehicle types configured and tested: sports car, SUV, and box truck  
+- Identical baseline values applied initially to expose behavior differences  
+- Per-vehicle tuning performed to demonstrate how configuration must adapt to scale and intent  
+
+**Wheel Configuration and Ground Contact**
+
+- Wheel radius adjusted per vehicle to ensure proper ground contact  
+- Front and rear wheels tuned independently where necessary  
+- Wheel mass adjusted to influence suspension response and vertical movement  
+
+**Vehicle Mass and Center of Mass Control**
+
+- Vehicle mass tuned per platform to reflect real-world weight expectations  
+- Center of mass overrides used to stabilize acceleration and braking behavior  
+- Mesh-level center of mass offsets refined to reduce exaggerated pitch and lift  
+
+**Engine and Torque Curve Tuning**
+
+- Torque curves reshaped to control how power is delivered across RPM ranges  
+- Progressive torque delivery used to prevent traction loss and instability  
+- Engine output scaled appropriately for vehicle type rather than relying on top speed alone  
+
+**Transmission and Acceleration Behavior**
+
+- Gear ratios adjusted to control responsiveness and launch characteristics  
+- Shorter gearing used for lighter vehicles to improve acceleration  
+- Slower, delayed power delivery applied to heavier vehicles to preserve realism  
+
+**Traction and Handling Adjustments**
+
+- Rear wheel friction multipliers increased where necessary to reduce wheel spin  
+- Traction tuned alongside torque and transmission changes  
+- Focus placed on controllability over arcade-style responsiveness  
+
+**Reusable Tuning Workflow**
+
+- Configuration process structured for repeatability across new assets  
+- Changes isolated per vehicle to prevent shared-value conflicts  
+- Provides a clear framework for diagnosing vehicle behavior issues  
+
+## 🚀 Result
+
+Each vehicle now behaves in a way that aligns with its intended role. The sports car delivers responsive acceleration with controlled traction, the SUV maintains a heavier and more compliant ride, and the box truck accelerates gradually while preserving realistic weight and momentum. Together, these configurations demonstrate how thoughtful tuning of Chaos Vehicle systems can produce predictable, controllable, and vehicle-appropriate behavior across a wide range of assets.
