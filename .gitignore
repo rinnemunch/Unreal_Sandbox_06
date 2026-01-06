@@ -1,20 +1,30 @@
-Binaries
-DerivedDataCache
-Intermediate
-Saved
+# Unreal Engine
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
 .vscode
 .vs
+
+# Visual Studio junk
 *.VC.db
+*.vc.db
 *.opensdf
 *.opendb
 *.sdf
 *.sln
 *.suo
+
+# Xcode
 *.xcodeproj
-*.xcworkspace 
+*.xcworkspace
+
 # macOS junk
 .DS_Store
-._* 
+._*
+
+# Starter Content
+Content/StarterContent/
+
 # Marketplace assets
 Content/VehicleVarietyPack/
-
