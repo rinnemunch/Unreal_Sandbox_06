@@ -242,3 +242,48 @@ The Sketchfab asset is transformed from a raw download into organized, reusable 
 ## 📄 Credits
 
 "2019 Chevrolet Corvette C8 Stingray" (https://skfb.ly/ooPvp) by Hari Prasath R is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
+--- 
+
+# Project 6 — Media Player Video Playback with Level Sequence
+
+## 🖼️ Preview
+
+![Media Player Video Playback](Media/6.gif)
+
+## 🧱 Features
+
+**Media Player Asset Setup**
+
+- File Media Source created and linked directly to an MP4 video  
+- Media Player asset configured with auto-generated Media Texture  
+- Video stored in Movies folder following Unreal Engine conventions  
+
+**In-World Screen Rendering**
+
+- Simple screen mesh created using a scaled cube  
+- Media Texture applied directly to the mesh surface  
+- Allows video playback on any static mesh or display surface  
+
+**Level Sequence Media Control**
+
+- Level Sequence created to manage video playback timing  
+- Media Track added and bound to the File Media Source  
+- Media Texture assigned in track properties for correct rendering  
+- Sequence length adjusted to match video duration  
+
+**Runtime Playback Logic**
+
+- Level Blueprint uses Create Level Sequence Player on BeginPlay  
+- Sequence Player triggered with Play Looping  
+- Loop count set to infinite for continuous playback  
+
+**Reusable Workflow**
+
+- Works with any mesh, environment, or screen type  
+- Suitable for TVs, kiosks, intro screens, and looping displays  
+- Media logic remains asset-agnostic and easily reusable  
+
+## 🚀 Result
+
+A clean and reliable video playback system using Unreal Engine’s Media Player and Level Sequence tools. Videos play correctly at runtime with full control over looping and timing, making this setup ideal for in-world screens, showcase displays, and cinematic environments.
