@@ -195,3 +195,50 @@ Each vehicle now behaves in a way that aligns with its intended role. The sports
 
 This project provides a practical walkthrough of Unreal Engine’s Foliage Tool, covering asset setup, painting workflows, instance selection, fill behavior, and non-destructive updates. By isolating each tool in controlled test levels, the workflow becomes predictable, repeatable, and easy to apply in real production environments.
 
+--- 
+
+# Project 5 — Sketchfab Asset Import & Blueprint Setup
+
+## 🖼️ Preview
+
+![Sketchfab Asset Import](Media/5.gif)
+
+## 🧱 Features
+
+**Sketchfab Asset Import Workflow**
+
+- Sketchfab model downloaded using the glTF format  
+- Asset imported into Unreal Engine with original mesh structure preserved  
+- Import settings reviewed to understand mesh combination tradeoffs  
+
+**Mesh Organization and Evaluation**
+
+- Imported static meshes filtered and placed into the level for inspection  
+- Differences between combined and non-combined meshes compared in practice  
+- Visual artifacts identified on small details when meshes are combined  
+
+**Controlled Mesh Merging**
+
+- Meshes merged using Unreal Engine’s Merge Actors tool after inspection  
+- Merge performed intentionally to balance organization and visual fidelity  
+- Minor shading issues observed on detailed components such as the front emblem  
+
+**Blueprint Conversion**
+
+- Merged mesh converted into a reusable Actor Blueprint  
+- Separate Blueprint created from non-merged meshes for lighter components  
+- Blueprint setup allows independent control over body and accessory elements  
+
+**Basic Interaction Testing**
+
+- Simple input-driven color swap implemented on the merged body Blueprint  
+- Headlight glow behavior set up on the lighting Blueprint for demonstration  
+- Confirms imported assets are fully manipulatable once converted to Blueprints  
+
+## 🚀 Result
+
+The Sketchfab asset is transformed from a raw download into organized, reusable Blueprints that can be interacted with and extended inside Unreal Engine. The project demonstrates how proper import decisions, mesh handling, and Blueprint setup turn external assets into flexible, production-ready components.
+
+## 📄 Credits
+
+"2019 Chevrolet Corvette C8 Stingray" (https://skfb.ly/ooPvp) by Hari Prasath R is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
